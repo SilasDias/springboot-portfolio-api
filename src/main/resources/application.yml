@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springboot-portfolio-api
+
+# Configuração do Actuator e SpringDoc
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always

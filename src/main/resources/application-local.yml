@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: springboot-portfolio-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/portfolio
+    username: dev
+    password: dev
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+# Configuração do Actuator e SpringDoc
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always
