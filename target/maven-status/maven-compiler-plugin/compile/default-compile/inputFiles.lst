@@ -1,1 +1,3 @@
 /home/silasdias/Documentos/Repositorio/springboot-portfolio-api/src/main/java/com/silasdias/springboot_portfolio_api/SpringbootPortfolioApiApplication.java
+/home/silasdias/Documentos/Repositorio/springboot-portfolio-api/src/main/java/com/silasdias/springboot_portfolio_api/entity/Client.java
+/home/silasdias/Documentos/Repositorio/springboot-portfolio-api/src/main/java/com/silasdias/springboot_portfolio_api/repository/ClientRepository.java

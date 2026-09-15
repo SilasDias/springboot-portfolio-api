@@ -40,9 +40,11 @@ public class Client implements Serializable {
     private String phone;
 
     @CreatedDate
+    @Column(nullable = false)
     private LocalDateTime createdAt;
 
     @LastModifiedDate
+    @Column(nullable = false)
     private LocalDateTime updatedAt;
 
 }
